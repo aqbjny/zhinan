@@ -1,0 +1,10 @@
+add .
+commit -m ""
+push
+
+也可以使用GUI
+rescan
+stage changed
+走右边框填写提交信息
+点commit
+再push

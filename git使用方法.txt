@@ -1,9 +1,0 @@
-add .
-commit -m ""
-push
-
-也可以使用GUI
-branch可以创建（创建好要remote push）
-切换分支
-目前有master和dev
-commit

@@ -1,4 +1,4 @@
-1. 从 master 新建 dev 分支
+# 1. 从 master 新建 dev 分支
 
 
 	1. Branch‑Create → 起名，勾选 Checkout → Create
@@ -11,18 +11,18 @@
 	2. 在新分支写代码 → Stage → Commit
 	3. Push 把新分支上传 GitHub
 
-2. dev 修改文件 → commit → push 远程
+# 2. dev 修改文件 → commit → push 远程
 	弹窗：**Stage 1 untracked files?**
 	意思：发现 1 个全新未跟踪的文件 `git使用方法.txt`，问你要不要加入暂存区。
 
 	✅点 **是 (Y)**
 	这个新文件就会进到绿色的`Staged Changes`（待提交）区域。
 
-3. GitHub 网页新建 PR dev → master
-4. 网页合并 PR
+# 3. GitHub 网页新建 PR dev → master
+# 4. 网页合并 PR
 	点绿色 **Create pull request** 创建 PR。
 	直接点 **Merge pull request** → Confirm merge，完成合并。
-5. 本地 fetch，merge origin/master 同步到本机 master
+# 5. 本地 fetch，merge origin/master 同步到本机 master
 	网页合并完，**你的本地 master 还没有这份新改动**，需要拉取更新：
 
 	1. Git‑GUI 菜单 `Branch` → `Checkout`，切换回本地 `master`
